@@ -1,0 +1,55 @@
+# Docker Compose configuration for development environment with Neon Local
+
+version: "3.8"
+
+services:
+  # Application service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: acquisitions-app-dev
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.development
+    volumes:
+      # Mount source code for hot reload in development
+      - ./src:/app/src:ro
+      # Mount logs directory for persistence
+      - ./logs:/app/logs
+      # Prevent node_modules from being overwritten
+      - /app/node_modules
+    depends_on:
+      neon-local:
+        condition: service_healthy
+    networks:
+      - acquisitions-network
+    restart: unless-stopped
+    command: node --watch src/index.js
+
+  # Neon Local PostgreSQL service
+  neon-local:
+    image: neondatabase/neon_local:latest
+    container_name: acquisitions-neon-local
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env.development
+    networks:
+      - acquisitions-network
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 5432 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 60s
+
+networks:
+  acquisitions-network:
+    driver: bridge
+
+volumes:
+  neon-data:
+    driver: local

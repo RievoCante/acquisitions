@@ -39,3 +39,43 @@
 {"ip":"::1","level":"warn","message":"Bot detected:","path":"/health","service":"user-service","timestamp":"2025-10-28T04:04:38.451Z","userAgent":"PostmanRuntime/7.49.0"}
 {"level":"info","message":"::1 - - [28/Oct/2025:04:04:38 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T04:04:38.456Z"}
 {"level":"info","message":"::1 - - [28/Oct/2025:04:07:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T04:07:53.660Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:55:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:55:40.173Z"}
+{"level":"info","message":"Hello from Acquisitions API","service":"user-service","timestamp":"2025-10-28T05:55:47.319Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:05:55:47 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-28T05:55:47.321Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:05:56:02 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-28T05:56:02.177Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:56:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:56:10.334Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:56:40 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:56:40.493Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:57:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:57:10.743Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:57:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:57:40.962Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:05:57:48 +0000] \"GET /api/health HTTP/1.1\" 200 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-28T05:57:48.729Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:58:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:58:11.133Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:05:58:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T05:58:41.270Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:01:22 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:01:22.142Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:01:24 +0000] \"GET /api/health HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-28T06:01:24.077Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:01:52 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:01:52.347Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:02:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:02:21.157Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:02:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:02:22.514Z"}
+{"level":"info","message":"Hello from Acquisitions API","service":"user-service","timestamp":"2025-10-28T06:02:33.683Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:02:33 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:02:33.684Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:02:52 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:02:52.799Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:03:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:03:23.142Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:03:46 +0000] \"POST /api/sing-up HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:03:46.142Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:03:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:03:53.295Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:04:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:04:23.447Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:04:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:04:53.628Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:07:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:07:54.375Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:08:23 +0000] \"POST /api/sing-up HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:08:23.183Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:08:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:08:24.555Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:08:31 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:08:31.423Z"}
+{"level":"info","message":"User steve@gg.com created successfully","service":"user-service","timestamp":"2025-10-28T06:08:40.546Z"}
+{"level":"info","message":"User registered successfully: steve@gg.com","service":"user-service","timestamp":"2025-10-28T06:08:40.548Z"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [28/Oct/2025:06:08:40 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T06:08:40.549Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:08:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:08:54.727Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:09:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:09:24.898Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:09:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:09:55.063Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:10:25 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:10:25.244Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:10:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:10:55.429Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:11:25 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:11:25.637Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:11:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:11:55.886Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:12:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:12:26.097Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:06:12:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"user-service","timestamp":"2025-10-28T06:12:56.259Z"}
