@@ -1,0 +1,32 @@
+{"level":"info","message":"Hello from Acquisitions API","service":"user-service","timestamp":"2025-10-27T08:53:43.252Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:08:53:43 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-27T08:53:43.258Z"}{"level":"info","message":"::1 - - [27/Oct/2025:09:10:53 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-10-27T09:10:53.803Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:13:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:13:22.358Z"}
+{"level":"info","message":"Hello from Acquisitions API","service":"user-service","timestamp":"2025-10-27T09:14:01.181Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:14:01 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:14:01.186Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:14:18 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:14:18.273Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:14:38 +0000] \"GET /api/health HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:14:38.102Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:15:10 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:15:10.607Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:09:15:30 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T09:15:30.988Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:07:40 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:07:40.633Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:08:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:08:37.653Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:10:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:10:09.858Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:10:38 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:10:38.485Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:11:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:11:05.324Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:11:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:11:29.653Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:11:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:11:59.985Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:16:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:16:24.730Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:16:44 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:16:44.561Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:16:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:16:45.279Z"}
+{"level":"info","message":"User registered successfully: contact@putter.com","service":"user-service","timestamp":"2025-10-27T10:18:57.206Z"}
+{"level":"info","message":"::1 - - [27/Oct/2025:10:18:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 116 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-27T10:18:57.210Z"}
+{"level":"info","message":"User admin@rievo.pro created successfully","service":"user-service","timestamp":"2025-10-28T02:47:26.102Z"}
+{"level":"info","message":"User registered successfully: admin@rievo.pro","service":"user-service","timestamp":"2025-10-28T02:47:26.110Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:02:47:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 114 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T02:47:26.114Z"}
+{"level":"info","message":"User alex@rievo.pro created successfully","service":"user-service","timestamp":"2025-10-28T02:50:25.406Z"}
+{"level":"info","message":"User registered successfully: alex@rievo.pro","service":"user-service","timestamp":"2025-10-28T02:50:25.408Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:02:50:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 111 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T02:50:25.409Z"}
+{"level":"info","message":"User alex@rievo.pro authenticated successfully","service":"user-service","timestamp":"2025-10-28T03:15:42.174Z"}
+{"level":"info","message":"User signed in successfully: alex@rievo.pro","service":"user-service","timestamp":"2025-10-28T03:15:42.182Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:03:15:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 110 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T03:15:42.184Z"}
+{"level":"info","message":"User signed out successfully","service":"user-service","timestamp":"2025-10-28T03:16:08.273Z"}
+{"level":"info","message":"::1 - - [28/Oct/2025:03:16:08 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.49.0\"","service":"user-service","timestamp":"2025-10-28T03:16:08.275Z"}
