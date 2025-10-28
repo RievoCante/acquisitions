@@ -11,7 +11,8 @@
     "#routes/*": "./src/routes/*",
     "#services/*": "./src/services/*",
     "#utils/*": "./src/utils/*",
-    "#validations/*": "./src/validations/*"
+    "#validations/*": "./src/validations/*",
+    "#middleware/*": "./src/middleware/*"
   },
   "scripts": {
     "dev": "node --watch src/index.js",
@@ -36,6 +37,8 @@
   },
   "homepage": "https://github.com/RievoCante/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.13",
+    "@arcjet/node": "^1.0.0-beta.13",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
